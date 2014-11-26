@@ -19,4 +19,13 @@ public class FilteringElementsReusingLambda {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * Exercise 2.
+     *
+     * Method should return list of numbers that are selected by a given predicate.
+     */
+    public List<Integer> getMatchingNumbers(List<String> list, Predicate<Integer> predicate) {
+        throw new UnsupportedOperationException();
+    }
+
 }

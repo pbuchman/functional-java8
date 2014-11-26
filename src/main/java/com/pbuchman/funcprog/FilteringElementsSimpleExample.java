@@ -38,4 +38,15 @@ public class FilteringElementsSimpleExample {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * Exercise 1.
+     *
+     * Method should return list of even numbers.
+     */
+    public List<Integer> filterEvenNumbers(List<Integer> list) {
+        throw new UnsupportedOperationException();
+    }
+
+
+
 }

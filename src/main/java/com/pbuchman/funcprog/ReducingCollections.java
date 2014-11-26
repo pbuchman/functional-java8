@@ -25,4 +25,12 @@ public class ReducingCollections {
         return longest.orElseThrow(IllegalArgumentException::new);
     }
 
+    /**
+     * Exercise 5.
+     *
+     * Method should merge all elements of given list and return them as string.
+     */
+    public String mergeElements(List<String> list) {
+        throw new UnsupportedOperationException();
+    }
 }

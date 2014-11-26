@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
@@ -34,6 +35,16 @@ public class OptionalTypes {
                 .findFirst();
 
         return result.orElse("no such long element");
+    }
+
+    /**
+     * Exercise 3.
+     *
+     * Method should return list of forbidden words determined by a given predicate.
+     * If no forbidden elements found - we expect exception to be thrown.
+     */
+    public List<String> findForbidden(List<String> list, Predicate<String> predicate) {
+        throw new UnsupportedOperationException();
     }
 
 }

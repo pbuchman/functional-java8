@@ -2,6 +2,7 @@ package com.pbuchman.funcprog;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class MappingElements {
@@ -28,4 +29,12 @@ public class MappingElements {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * Exercise 4.
+     *
+     * Method should return list of elements truncated to given length.
+     */
+    public List<String> truncateElements(List<String> list, int length) {
+        throw new UnsupportedOperationException();
+    }
 }
